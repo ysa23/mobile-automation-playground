@@ -1,0 +1,10 @@
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.idea
+.gradle
+.tmp
+local.properties
+.DS_Store
+.idea/
