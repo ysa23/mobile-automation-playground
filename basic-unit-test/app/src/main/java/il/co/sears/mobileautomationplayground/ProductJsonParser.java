@@ -6,7 +6,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductJsonParser {
+public class ProductJsonParser implements IProductJsonParser {
+    @Override
     public List<Product> parse(JSONObject json) throws Exception {
         if (json == null) throw new IllegalArgumentException("json");
         if (json.isNull("products")) return new ArrayList<>();
