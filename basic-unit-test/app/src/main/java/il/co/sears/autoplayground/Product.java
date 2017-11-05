@@ -1,4 +1,4 @@
-package il.co.sears.mobileautomationplayground;
+package il.co.sears.autoplayground;
 
 public class Product {
     private long id;

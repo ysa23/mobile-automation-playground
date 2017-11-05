@@ -1,4 +1,4 @@
-package il.co.sears.mobileautomationplayground;
+package il.co.sears.autoplayground;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

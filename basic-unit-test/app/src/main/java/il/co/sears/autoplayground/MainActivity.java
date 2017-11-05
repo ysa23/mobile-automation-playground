@@ -1,4 +1,4 @@
-package il.co.sears.mobileautomationplayground;
+package il.co.sears.autoplayground;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
