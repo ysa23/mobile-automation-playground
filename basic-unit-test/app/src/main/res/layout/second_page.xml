@@ -4,33 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="il.co.sears.autoplayground.MainActivity">
+    tools:context="il.co.sears.autoplayground.SecondPageActivity">
 
     <TextView
-        android:id="@+id/hello_text"
+        android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="This is the second page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/click_me_button"
+        android:id="@+id/close_button"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="Click me!"
-        app:layout_constraintBottom_toTopOf="@id/next_button"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
-
-    <Button
-        android:id="@+id/next_button"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="NEXT!"
+        android:text="DONE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

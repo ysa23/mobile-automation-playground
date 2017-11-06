@@ -1,5 +1,6 @@
 package il.co.sears.autoplayground;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +20,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 final TextView textView = findViewById(R.id.hello_text);
                 textView.setText(String.format("Hello. I've been clicked %d times", ++counter));
+            }
+        });
+
+        final Button next = findViewById(R.id.next_button);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent nextPageIntent = new Intent(getApplicationContext(), SecondPageActivity.class);
+                nextPageIntent.putExtra("counter", counter);
+                startActivity(nextPageIntent);
             }
         });
     }
